@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
   display: flex;
-  flex-direction: column;
+  height: 47px;
+  background-color: rgb(213, 71, 71);
+  color: white;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav > i{
+  margin: 0 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  display: flex;
+  margin: 15px 10px;
+  max-width: 500px;
+  align-self: center;
+}
+
+.card-img > img{
+  float: left;
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card-info{
+  margin: 0 12px;
+}
+
+.card-info > i{
+  color: red;
+  font-size: 12px;
+}
+
+.country{
+  font-size: 10px;
+  color: rgb(72, 71, 71);
+  letter-spacing: 1px;
+}
+
+.map-url{
+  margin-left:15px;
+  font-size: 10px;
+}
+
+.map-url > a{
+  color: gray;
+}
+
+.name{
+  margin: 2px 1px 3px;
+}
+
+.date{
+  margin: 5px 0 0;
+  font-size: 10px;
+}
+
+.description{
+  font-size: 11px;
+  color: gray;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App{
+  background-color: aliceblue;
 }
